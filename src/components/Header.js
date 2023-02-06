@@ -1,21 +1,13 @@
+import { useState } from "react";
 
 
 
-
-function Header() {
+export default function Navbar() {
 
     return (
-
-        <div className="header">
-
-        <h1>Christians Portfolio</h1>
-        
+        <div>
+            <h2>Christians Portfolio</h2>
         </div>
-
 
     )
 }
-
-
-
-export default Header 

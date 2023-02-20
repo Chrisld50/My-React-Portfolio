@@ -6,6 +6,13 @@ import Music from '../images/Weirdmusic_screenshot.png';
 
  function Project() {
   return (
+
+    <div className={'p-3 m-3'}>
+      <div>
+        <h3 className={'p-3 m-3 text-center'}>
+         Projects
+        </h3>
+      </div>
     <Carousel variant='dark'>
       <Carousel.Item>
         <img
@@ -15,8 +22,8 @@ import Music from '../images/Weirdmusic_screenshot.png';
         />
         <Carousel.Caption>
           <h3 class="text-dark">Book Search Engine</h3>
-        <a href="https://github.com/Chrisld50/Book-Search-Engine" rel='noreferrer' target="_blank"> Github </a>
-        <a href="https://bookfinder12.herokuapp.com/board" target="_blank" rel='noreferrer'> Check it out! </a>
+        <a className={'text-dark px-3'} href="https://github.com/Chrisld50/Book-Search-Engine" rel='noreferrer' target="_blank"> Github </a>
+        <a className={'text-dark px-3'} href="https://bookfinder12.herokuapp.com/board" target="_blank" rel='noreferrer'> Live Link </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -27,8 +34,8 @@ import Music from '../images/Weirdmusic_screenshot.png';
         />
         <Carousel.Caption>
           <h3 class='text-dark'>Weird Music</h3>
-        <a href="https://github.com/Chrisld50/weirdmusic" rel='noreferrer' target="_blank"> Github </a>
-      <a href="https://weirdmusic.herokuapp.com/" rel='noreferrer' target="_blank"> Check it out! </a>
+        <a className={'text-dark px-3'} href="https://github.com/Chrisld50/weirdmusic" rel='noreferrer' target="_blank"> Github </a>
+      <a className={'text-dark px-3'} href="https://weirdmusic.herokuapp.com/" rel='noreferrer' target="_blank"> Live Link </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -39,8 +46,8 @@ import Music from '../images/Weirdmusic_screenshot.png';
         />
         <Carousel.Caption>
           <h3 class='text-light'>E-Commerce</h3>
-        <a href="https://github.com/Chrisld50/E-commerce_BE" rel='noreferrer' target="_blank"> Github </a>
-      <a href="https://drive.google.com/file/d/1LLER8KhZoAFJOjPa7lVaxF6ANmf4EFna/view" rel='noreferrer' target="_blank"> Check it out! </a>
+        <a className={'text-white px-3'} href="https://github.com/Chrisld50/E-commerce_BE" rel='noreferrer' target="_blank"> Github </a>
+      <a className={'text-white px-3'} href="https://drive.google.com/file/d/1LLER8KhZoAFJOjPa7lVaxF6ANmf4EFna/view" rel='noreferrer' target="_blank"> Link to Video </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -51,11 +58,12 @@ import Music from '../images/Weirdmusic_screenshot.png';
         />
         <Carousel.Caption>
           <h3 class='text-dark'>Password Generator</h3>
-        <a href="https://github.com/Chrisld50/Password_Generator" rel='noreferrer' target="_blank"> Github </a>
-      <a href="https://chrisld50.github.io/Password_Generator/" rel='noreferrer' target="_blank"> Check it out! </a>
+        <a className={'text-dark px-3'} href="https://github.com/Chrisld50/Password_Generator" rel='noreferrer' target="_blank"> Github </a>
+      <a className={'text-dark px-3'} href="https://chrisld50.github.io/Password_Generator/" rel='noreferrer' target="_blank"> Live Link </a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 

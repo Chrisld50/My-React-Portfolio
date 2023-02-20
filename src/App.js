@@ -1,10 +1,8 @@
 import React from 'react';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Project from './components/Project';
-import Footer from './components/Footer';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Contact from './components/Contact';
 import AboutMe from './components/AboutMe';
+import Home from './components/Home';
 import './App.css';
 
 
@@ -12,31 +10,20 @@ function App() {
 
   return (
   
-    <div class="container">
+    <div className={"bg-secondary bg-gradient pb-1 mw-100"}>
 
-      <div>
-        <Header />
-      </div>
+        <Router>
+          <>
+            <Routes>
+              <Route exact path='/' element={<Home />} />
 
-      <div>
-        <Navbar />
-      </div>
+              <Route exact path='/aboutme' element={<AboutMe />} />
 
-      <div>
-        <AboutMe />
-      </div>
+              <Route path='/contact' element={<Contact />} />
 
-      <div>
-        <Project />
-      </div>
-
-      <div>
-        <Contact />
-      </div>
-
-      <div>
-        <Footer />
-      </div>
+            </Routes>
+          </>
+        </Router>
       
     </div>
   )

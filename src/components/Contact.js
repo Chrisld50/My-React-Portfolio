@@ -1,13 +1,33 @@
-function Contact () { 
+import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import Navbar from './Navbar'
+
+export default function Contact () { 
     return (
         <div className="contact_me">
-            <a href="{mailto}"> christld50@yahoo.com </a>
+            <div>
+                <Header />
+            </div>
+            <div>
+                <Navbar />
+            </div>
 
-            <a href="{tel}"> 734-709-4162 </a>
+<h3> Below is my contact information and links to both my Github and my Linkedin. I am currently looking for a front-end jr. developer position and I am hungry to get into the field!</h3>
 
-            <a href="https://github.com/Chrisld50"> Github </a>
+        <ul class='unstyled'>
+            <li>Email: <a href="{mailto}"> christld50@yahoo.com </a></li>
 
-            <a href="https://www.linkedin.com/in/christian-quarles-71436a226/"> linkedin </a>
+            <li>Cell Phone: <a href="{tel}"> 734-709-4162 </a></li>
+
+            <li><a href="https://github.com/Chrisld50"> Github </a></li>
+
+            <li><a href="https://www.linkedin.com/in/christian-quarles-71436a226/"> Linkedin </a> </li>
+        </ul>
+
+            <div>
+            <Footer />
+            </div>
         </div>
     )
 }
@@ -15,5 +35,3 @@ function Contact () {
 
 
 
-
-export default Contact

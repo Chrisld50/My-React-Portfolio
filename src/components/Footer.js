@@ -1,7 +1,9 @@
 
 function Footer(){
     return (
-        <h3> Created by Christian Q</h3>
+        <div className={'p-3 m-3 text-center'}>
+            <h3> Created by Christian Q </h3>
+        </div>
     )
 }
 

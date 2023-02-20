@@ -28,7 +28,7 @@ export default function AboutMe () {
                                     <br />My two favorite passions: Video games and Music (very unique I know)< br/>
                                     I am an avid metal head and go to many concers in the Austin area, < br/> My favorite bands at the moment: The Ghost Inside, Polaris and Malevolence.
                                     < br/>Some of my favorite games: World of Warcraft, Rust, Old School FPS and the Forest.
-                                    < br/>I am in recovery, my sobriety date is April 4th of 2015 and I have spen <br /> the last 6 years in the field of Addiction Recovery.</p>
+                                    < br/>I am in recovery, my sobriety date is April 4th of 2015 and I have spent <br /> the last 6 years in the field of Addiction Recovery.</p>
                                 </div>
                             </div>
                         </div>               

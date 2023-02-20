@@ -4,12 +4,12 @@ import { Nav, Navbar } from 'react-bootstrap';
 export default function Navigationbar() {
     
     return (
-        <div className={'text-light'}>
+        <div>
           <Navbar>
-            <Nav className="mr-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/aboutme">About Me</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav className={"mx-auto"}>
+              <Nav.Link className={"text-light"} href="/">Home</Nav.Link>
+              <Nav.Link className={"text-light"}  href="/aboutme">About Me</Nav.Link>
+              <Nav.Link className={"text-light"} href="/contact">Contact</Nav.Link>
            </Nav>
           <Nav>
           <Nav.Link eventKey={2} href="">

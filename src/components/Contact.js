@@ -13,18 +13,24 @@ export default function Contact () {
                 <Navbar />
             </div>
 
-<h3> Below is my contact information and links to both my Github and my Linkedin. I am currently looking for a front-end jr. developer position and I am hungry to get into the field!</h3>
+            <div className={'card w-50 mx-auto'}>
 
-        <ul class='unstyled'>
-            <li>Email: <a href="{mailto}"> christld50@yahoo.com </a></li>
+                <h3 className={'card-title text-center'}>Contact</h3>
+        <div className={'text-center'}>
+        <p> Below is my contact information and links to both my Github and my Linkedin. < br/> I am currently looking for a front-end jr. developer position and I am hungry to get into the field!</p>
+        <div className={'container'}>
+        <ul className={'list-unstyled'}>
+            <li>Email: <a className={'text-dark'} href="{mailto}"> christld50@yahoo.com </a></li>
 
-            <li>Cell Phone: <a href="{tel}"> 734-709-4162 </a></li>
+            <li>Cell Phone: <a className={'text-dark'} href="{tel}"> 734-709-4162 </a></li>
 
-            <li><a href="https://github.com/Chrisld50"> Github </a></li>
+            <li><a className={'text-dark'} href="https://github.com/Chrisld50"> Github </a></li>
 
-            <li><a href="https://www.linkedin.com/in/christian-quarles-71436a226/"> Linkedin </a> </li>
+            <li><a className={'text-dark'} href="https://www.linkedin.com/in/christian-quarles-71436a226/"> Linkedin </a> </li>
         </ul>
-
+        </div>
+        </div>
+    </div>
             <div>
             <Footer />
             </div>

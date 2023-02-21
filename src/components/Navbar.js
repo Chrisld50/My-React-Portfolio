@@ -7,7 +7,7 @@ export default function Navigationbar() {
         <div>
           <Navbar>
             <Nav className={"mx-auto"}>
-              <Nav.Link className={"text-light"} href="/">Home</Nav.Link>
+              <Nav.Link className={"text-light hover-zoom hover-overlay"} href="/">Home</Nav.Link>
               <Nav.Link className={"text-light"}  href="/aboutme">About Me</Nav.Link>
               <Nav.Link className={"text-light"} href="/contact">Contact</Nav.Link>
            </Nav>

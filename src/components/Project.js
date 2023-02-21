@@ -10,10 +10,11 @@ import Music from '../images/Weirdmusic_screenshot.png';
     <div>
 
     <div className={'p-3 m-3'}>
-      <div>
+      <div className={'card'}>
         <h3 className={'p-3 m-3 text-center'}>
          Projects
         </h3>
+        <p className={'text-center'}> Below are some of my projects that I have worked on. <br/> Both the link to the project itself and to Github are available!</p>
       </div>
     <Carousel variant='dark'>
       <Carousel.Item>

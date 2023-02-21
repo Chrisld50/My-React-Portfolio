@@ -1,16 +1,13 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Navbar from './Navbar'
+
 
 export default function Contact () { 
     return (
         <div className="contact_me">
             <div>
                 <Header />
-            </div>
-            <div>
-                <Navbar />
             </div>
 
             <div className={'card w-50 mx-auto'}>

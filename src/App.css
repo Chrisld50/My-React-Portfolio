@@ -13,6 +13,13 @@
   }
 }
 
+.BackgroundImage {
+  background-image: url('https://www.canva.com/design/DAFbKjxqf1Q/axu-y8sgyrgNY5yJnkUpMQ/edit?utm_content=DAFbKjxqf1Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton');
+  background-size: 'cover';
+  height: 100vh;
+  margin-top: -70px;
+  background-repeat: no-repeat;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

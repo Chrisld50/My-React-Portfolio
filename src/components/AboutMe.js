@@ -1,5 +1,4 @@
 import Header from './Header';
-import Navbar from './Navbar';
 import Footer from './Footer';
 import Profilepic from '../images/Portfolio_image.png';
 
@@ -11,9 +10,6 @@ export default function AboutMe () {
         <div>
             <div>
                 <Header />
-            </div>
-            <div>
-                <Navbar />
             </div>
                         <div className={'card w-50 display-inline text-center mx-auto'}>
                             <div className={'profile text-center'}>

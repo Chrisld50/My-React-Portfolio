@@ -28,7 +28,7 @@ export default function AboutMe () {
                                      Here are some fun facts about me:
                                     <p>I have had a passion for computers since an early age and have spent most of my life working or playing on them.
                                     My two favorite passions: Video games and Music (very unique I know)
-                                    I am an avid metal head and go to many concers in the Austin area, My favorite bands at the moment: The Ghost Inside, Polaris and Malevolence.
+                                    I am an avid metal head and go to many concerts in the Austin area, My favorite bands at the moment: The Ghost Inside, Polaris and Malevolence.
                                     Some of my favorite games: World of Warcraft, Rust, Old School FPS and the Forest.
                                     I am in recovery, my sobriety date is April 4th of 2015 and I spend a lot of my freetime helping other addicts and alcoholics.</p>
                                 </div>

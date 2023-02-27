@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import BookFinder from '../images/bookfinder_screenshot.png';
 import Commerce from '../images/E-Commerce_Screenshot.png';
 import Generator from '../images/Password_Generator_Image.png';
-import Music from '../images/Weirdmusic_screenshot.png';
+import GrabAJob from '../images/GrabAJobPic1.png';
 
  function Project() {
   return (
@@ -30,13 +30,13 @@ import Music from '../images/Weirdmusic_screenshot.png';
       <Carousel.Item>
           <img
               className="d-block w-100"
-              src={Music}
+              src={GrabAJob}
               alt="Second slide"
           />
           <Carousel.Caption>
-            <h3 className='text-dark'>Weird Music</h3>
-            <a className={'text-dark px-3'} href="https://github.com/Chrisld50/weirdmusic" rel='noreferrer' target="_blank"> Github </a>
-            <a className={'text-dark px-3'} href="https://weirdmusic.herokuapp.com/" rel='noreferrer' target="_blank"> Live Link </a>
+            <h3 className='text-dark'>Grab-A-Job</h3>
+            <a className={'text-dark px-3'} href="https://github.com/Chrisld50/job_board" rel='noreferrer' target="_blank"> Github </a>
+            <a className={'text-dark px-3'} href="https://grabajob1.herokuapp.com/" rel='noreferrer' target="_blank"> Live Link </a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

@@ -16,7 +16,7 @@ function App() {
         <Router basename={process.env.PUBLIC_URL}>
           <>
             <Routes>
-              <Route exact path='/' element={<Home />} />
+              <Route exact path='/My-React-Portfolio' element={<Home />} />
 
               <Route exact path='/aboutme' element={<AboutMe />} />
 

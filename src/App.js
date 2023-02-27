@@ -11,7 +11,7 @@ function App() {
 
   return (
   
-    <div style={{backgroundImage:`url(${Background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 1050}} className >
+    <div style={{backgroundImage:`url(${Background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 1050}} >
 
         <Router>
           <>

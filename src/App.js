@@ -4,14 +4,13 @@ import Contact from './components/Contact';
 import AboutMe from './components/AboutMe';
 import Home from './components/Home';
 import './App.css';
-import Background from '../src/images/Background.jpg';
 
 
 function App() {
 
   return (
   
-    <div className='background'style={{backgroundImage:`url(${Background})`}} >
+    <div className='background'>
 
       <Router>
           <>

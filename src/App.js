@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router,Route, Routes} from 'react-router-dom';
 import Contact from './components/Contact';
 import AboutMe from './components/AboutMe';
 import Home from './components/Home';
@@ -11,9 +11,9 @@ function App() {
 
   return (
   
-    <div style={{backgroundImage:`url(${Background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 1050}} >
+    <div className='background'style={{backgroundImage:`url(${Background})`}} >
 
-
+      <Router>
           <>
             <Routes>
               <Route exact path='/' element={<Home />} />
@@ -24,6 +24,7 @@ function App() {
 
             </Routes>
           </>
+      </Router>
 
       
     </div>

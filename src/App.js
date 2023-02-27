@@ -13,7 +13,7 @@ function App() {
   
     <div style={{backgroundImage:`url(${Background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 1050}} >
 
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <>
             <Routes>
               <Route exact path='/' element={<Home />} />

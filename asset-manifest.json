@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.9475bbe7.css",
-    "main.js": "/My-React-Portfolio/static/js/main.392ebd7d.js",
-    "static/js/787.1ed0c42c.chunk.js": "/My-React-Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Background.jpg": "/My-React-Portfolio/static/media/Background.61d4f5f8620bc408f51a.jpg",
-    "static/media/Family_Photo.jpg": "/My-React-Portfolio/static/media/Family_Photo.7dcaf1637c3c28198d6f.jpg",
-    "static/media/Weirdmusic_screenshot.png": "/My-React-Portfolio/static/media/Weirdmusic_screenshot.465da874eec8b98f404d.png",
-    "static/media/E-Commerce_Screenshot.png": "/My-React-Portfolio/static/media/E-Commerce_Screenshot.4a5635c6c8f10e007892.png",
-    "static/media/Password_Generator_Image.png": "/My-React-Portfolio/static/media/Password_Generator_Image.8a486a2558e251a8b80d.png",
-    "static/media/bookfinder_screenshot.png": "/My-React-Portfolio/static/media/bookfinder_screenshot.b418a9dd5e57c37a6a77.png",
-    "index.html": "/My-React-Portfolio/index.html",
-    "main.9475bbe7.css.map": "/My-React-Portfolio/static/css/main.9475bbe7.css.map",
-    "main.392ebd7d.js.map": "/My-React-Portfolio/static/js/main.392ebd7d.js.map",
-    "787.1ed0c42c.chunk.js.map": "/My-React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.9475bbe7.css",
+    "main.js": "/react-portfolio/static/js/main.45b98ff7.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Background.jpg": "/react-portfolio/static/media/Background.61d4f5f8620bc408f51a.jpg",
+    "static/media/Family_Photo.jpg": "/react-portfolio/static/media/Family_Photo.7dcaf1637c3c28198d6f.jpg",
+    "static/media/Weirdmusic_screenshot.png": "/react-portfolio/static/media/Weirdmusic_screenshot.465da874eec8b98f404d.png",
+    "static/media/E-Commerce_Screenshot.png": "/react-portfolio/static/media/E-Commerce_Screenshot.4a5635c6c8f10e007892.png",
+    "static/media/Password_Generator_Image.png": "/react-portfolio/static/media/Password_Generator_Image.8a486a2558e251a8b80d.png",
+    "static/media/bookfinder_screenshot.png": "/react-portfolio/static/media/bookfinder_screenshot.b418a9dd5e57c37a6a77.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.9475bbe7.css.map": "/react-portfolio/static/css/main.9475bbe7.css.map",
+    "main.45b98ff7.js.map": "/react-portfolio/static/js/main.45b98ff7.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9475bbe7.css",
-    "static/js/main.392ebd7d.js"
+    "static/js/main.45b98ff7.js"
   ]
 }

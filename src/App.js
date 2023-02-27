@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 import Home from './components/Home';
 import './App.css';
 import Background from '../src/images/Background.jpg';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {

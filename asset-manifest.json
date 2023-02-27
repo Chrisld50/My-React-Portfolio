@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "//chrisld50.github.io/My-React-Portfolio/static/css/main.9475bbe7.css",
-    "main.js": "//chrisld50.github.io/My-React-Portfolio/static/js/main.3c787259.js",
-    "static/js/787.5d3b699e.chunk.js": "//chrisld50.github.io/My-React-Portfolio/static/js/787.5d3b699e.chunk.js",
-    "static/media/Background.jpg": "//chrisld50.github.io/My-React-Portfolio/static/media/Background.61d4f5f8620bc408f51a.jpg",
-    "static/media/Family_Photo.jpg": "//chrisld50.github.io/My-React-Portfolio/static/media/Family_Photo.7dcaf1637c3c28198d6f.jpg",
-    "static/media/Weirdmusic_screenshot.png": "//chrisld50.github.io/My-React-Portfolio/static/media/Weirdmusic_screenshot.465da874eec8b98f404d.png",
-    "static/media/E-Commerce_Screenshot.png": "//chrisld50.github.io/My-React-Portfolio/static/media/E-Commerce_Screenshot.4a5635c6c8f10e007892.png",
-    "static/media/Password_Generator_Image.png": "//chrisld50.github.io/My-React-Portfolio/static/media/Password_Generator_Image.8a486a2558e251a8b80d.png",
-    "static/media/bookfinder_screenshot.png": "//chrisld50.github.io/My-React-Portfolio/static/media/bookfinder_screenshot.b418a9dd5e57c37a6a77.png",
-    "index.html": "//chrisld50.github.io/My-React-Portfolio/index.html",
-    "main.9475bbe7.css.map": "//chrisld50.github.io/My-React-Portfolio/static/css/main.9475bbe7.css.map",
-    "main.3c787259.js.map": "//chrisld50.github.io/My-React-Portfolio/static/js/main.3c787259.js.map",
-    "787.5d3b699e.chunk.js.map": "//chrisld50.github.io/My-React-Portfolio/static/js/787.5d3b699e.chunk.js.map"
+    "main.css": "/My-React-Portfolio/static/css/main.9475bbe7.css",
+    "main.js": "/My-React-Portfolio/static/js/main.c0448f25.js",
+    "static/js/787.5d3b699e.chunk.js": "/My-React-Portfolio/static/js/787.5d3b699e.chunk.js",
+    "static/media/Background.jpg": "/My-React-Portfolio/static/media/Background.61d4f5f8620bc408f51a.jpg",
+    "static/media/Family_Photo.jpg": "/My-React-Portfolio/static/media/Family_Photo.7dcaf1637c3c28198d6f.jpg",
+    "static/media/Weirdmusic_screenshot.png": "/My-React-Portfolio/static/media/Weirdmusic_screenshot.465da874eec8b98f404d.png",
+    "static/media/E-Commerce_Screenshot.png": "/My-React-Portfolio/static/media/E-Commerce_Screenshot.4a5635c6c8f10e007892.png",
+    "static/media/Password_Generator_Image.png": "/My-React-Portfolio/static/media/Password_Generator_Image.8a486a2558e251a8b80d.png",
+    "static/media/bookfinder_screenshot.png": "/My-React-Portfolio/static/media/bookfinder_screenshot.b418a9dd5e57c37a6a77.png",
+    "index.html": "/My-React-Portfolio/index.html",
+    "main.9475bbe7.css.map": "/My-React-Portfolio/static/css/main.9475bbe7.css.map",
+    "main.c0448f25.js.map": "/My-React-Portfolio/static/js/main.c0448f25.js.map",
+    "787.5d3b699e.chunk.js.map": "/My-React-Portfolio/static/js/787.5d3b699e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9475bbe7.css",
-    "static/js/main.3c787259.js"
+    "static/js/main.c0448f25.js"
   ]
 }

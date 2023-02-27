@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 import Contact from './components/Contact';
 import AboutMe from './components/AboutMe';
 import Home from './components/Home';
@@ -14,7 +14,7 @@ function App() {
   
     <div style={{backgroundImage:`url(${Background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 1050}} >
 
-        <Router>
+        <HashRouter>
           <>
             <Routes>
               <Route exact path='/' element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
 
             </Routes>
           </>
-        </Router>
+        </HashRouter>
       
     </div>
   )

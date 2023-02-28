@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import BookFinder from '../images/bookfinder_screenshot.png';
 import Commerce from '../images/E-Commerce_Screenshot.png';
 import Generator from '../images/Password_Generator_Image.png';
-import GrabAJob from '../images/GrabAJobPic1.png';
+import GrabAJob from '../images/GrabAJobPic.png';
 
  function Project() {
   return (

@@ -24,7 +24,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 * React
 * Bootstrap
 # Screenshot 
-![Alt Text](/images/Portfolio%20Screenshot%20.png)
+![Alt Text](src/images/Portfolio_Screenshot.png)
 
 
 

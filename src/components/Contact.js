@@ -2,8 +2,6 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import '../styling/Contact.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone, faPortrait } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -22,16 +20,14 @@ export default function Contact () {
 
                             <ul className={'list-unstyled'}>
 
-                            <FontAwesomeIcon icon={faEnvelope} className={'fa-3x'}/>
+
                             <li><a className={'contact text-light'} href="{mailto}"> christld50@yahoo.com </a></li>
 
-                            <FontAwesomeIcon icon={faPhone} className={'fa-3x'}/>
+
                             <li><a className={'contact text-light'} href="{tel}"> 734-709-4162 </a></li>
 
-                            <FontAwesomeIcon icon={faPortrait} className={'fa-3x'}/>
                             <li><a className={'contact text-light'} href="https://github.com/Chrisld50"> Github </a></li>
 
-                            <FontAwesomeIcon icon={faPortrait} className={'fa-3x'}/>
                             <li><a className={'contact text-light'} href="https://www.linkedin.com/in/christian-quarles-71436a226/"> Linkedin </a> </li>
 
                             </ul>

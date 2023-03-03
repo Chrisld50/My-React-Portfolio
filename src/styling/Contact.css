@@ -1,0 +1,22 @@
+li {
+    margin: 20px;
+    
+    
+}
+
+.contact:visited {
+text-decoration: none;
+}
+
+.contact:link {
+    text-decoration: none;
+}
+
+.contact:active {
+    text-decoration: none;
+}
+
+.contact:hover {
+    text-decoration: none;
+    font-size: 150%;
+}

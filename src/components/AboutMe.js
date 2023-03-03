@@ -1,6 +1,7 @@
 import Header from './Header';
 import Footer from './Footer';
 import Familypic from '../images/Family_Photo.jpg';
+import '../styling/AboutMe.css';
 
 
 
@@ -13,7 +14,7 @@ export default function AboutMe () {
             </div>
                         <div className={'w-50 display-inline text-center mx-auto'}>
                             <div className={'profile text-center'}>
-                                <img className={''} style= {{height: 350}} src={Familypic}
+                                <img className={'profilepic'} style= {{height: 350}} src={Familypic}
                                     alt='profilePicture' />
                             </div>
                             <div className={'text-center'}>
@@ -34,7 +35,7 @@ export default function AboutMe () {
                                 </div>
                             </div>
                         </div>               
-            <div>
+            <div className="footer">
                 <Footer />
             </div>
         </div>

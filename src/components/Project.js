@@ -10,7 +10,7 @@ import GrabAJob from '../images/GrabAJobPic.png';
     <div>
 
     <div className={'p-3 m-3'}>
-        <h3 className={'p-3 m-3 text-center text-light'}>
+        <h3 className={' text-center text-light'}>
          Projects
         </h3>
         <p className={'text-center text-light'}> Below are some of my projects that I have worked on. <br/> Both the link to the project itself and to Github are available!</p>

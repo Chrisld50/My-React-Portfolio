@@ -12,13 +12,13 @@ export default function AboutMe () {
             <div>
                 <Header />
             </div>
-                        <div className={'w-50 display-inline text-center mx-auto'}>
+                        <div className={'p-3 m-3 w-50 display-inline text-center mx-auto'}>
                             <div className={'profile text-center'}>
                                 <img className={'profilepic'} style= {{height: 350}} src={Familypic}
                                     alt='profilePicture' />
                             </div>
                             <div className={'text-center'}>
-                                <h3 className={'p-3 text-center text-light'}> About Me </h3>
+                                <h3 className={'p-3 m-3 text-center text-light'}> About Me </h3>
                             <div className={'text-light'}>
                                     <p>Hello! my name is Christian Quarles and I have recently graduated from the UT Austin Fullstack Web Development Bootcamp!  
                                     I am currently looking for work as a front-end developer. Though my time in the bootcamp was difficult, 

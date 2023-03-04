@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import '../styling/Contact.css';
+import '../font-awesome-4.7.0/css/font-awesome.min.css';
 
 
 
@@ -20,14 +21,16 @@ export default function Contact () {
 
                             <ul className={'list-unstyled'}>
 
-
+                            <i className={["fa fa-regular fa-envelope fa-3x"]}></i>
                             <li><a className={'contact text-light'} href="{mailto}"> christld50@yahoo.com </a></li>
 
-
+                            <i className={["fa fa-regular fa-phone fa-3x"]}></i>
                             <li><a className={'contact text-light'} href="{tel}"> 734-709-4162 </a></li>
 
+                            <i className={["fa fa-regular fa-github fa-3x"]}></i>
                             <li><a className={'contact text-light'} href="https://github.com/Chrisld50"> Github </a></li>
 
+                            <i className={["fa fa-regular fa-linkedin fa-3x"]}></i>
                             <li><a className={'contact text-light'} href="https://www.linkedin.com/in/christian-quarles-71436a226/"> Linkedin </a> </li>
 
                             </ul>

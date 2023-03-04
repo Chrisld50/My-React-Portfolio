@@ -19,7 +19,7 @@ export default function Contact () {
                     <div className={'text-center text-light'}>
                         <p> Below is my contact information and links to both my Github and my Linkedin. < br/> I am currently looking for a front-end jr. developer position and I am hungry to get into the field!</p>
 
-                            <ul className={'list-unstyled m-3'}>
+                            <ul className={'list-unstyled m-3 p-3'}>
 
                             <i className={["fa fa-regular fa-envelope fa-3x"]}></i>
                             <li><a className={'contact text-light'} href="{mailto}"> christld50@yahoo.com </a></li>

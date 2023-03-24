@@ -22,16 +22,16 @@ export default function Contact () {
                             <ul className={'list-unstyled m-3 p-3'}>
 
                             <i className={["fa fa-regular fa-envelope fa-3x"]}></i>
-                            <li><a className={'contact text-light'} href="{mailto}"> christld50@yahoo.com </a></li>
+                            <li><a className={'contact text-light'} href="mailto:chrisld50@yahoo.com" target="_blank" rel="noreferrer"> christld50@yahoo.com </a></li>
 
                             <i className={["fa fa-regular fa-phone fa-3x"]}></i>
-                            <li><a className={'contact text-light'} href="{tel}"> 734-709-4162 </a></li>
+                            <li><a className={'contact text-light'} href="tel:+7347094162"target="_blank" rel="noreferrer" > 734-709-4162 </a></li>
 
                             <i className={["fa fa-regular fa-github fa-3x"]}></i>
-                            <li><a className={'contact text-light'} href="https://github.com/Chrisld50"> Github </a></li>
+                            <li><a className={'contact text-light'} href="https://github.com/Chrisld50" target="_blank" rel="noreferrer"> Github </a></li>
 
                             <i className={["fa fa-regular fa-linkedin fa-3x"]}></i>
-                            <li><a className={'contact text-light'} href="https://www.linkedin.com/in/christian-quarles-71436a226/"> Linkedin </a> </li>
+                            <li><a className={'contact text-light'} href="https://www.linkedin.com/in/christian-quarles-71436a226/"target="_blank" rel="noreferrer" > Linkedin </a> </li>
 
                             </ul>
 

@@ -18,7 +18,7 @@ export default function AboutMe () {
                                     alt='profilePicture' />
                             </div>
                             <div className={'text-center'}>
-                                <h3 className={'p-3 m-3 text-center text-light'}> About Me </h3>
+                                <h3 className={'p-3 m-3v text-center text-light'}> About Me </h3>
                             <div className={'text-light'}>
                                     <p>Hello! my name is Christian Quarles and I have recently graduated from the UT Austin Fullstack Web Development Bootcamp!  
                                     I am currently looking for work as a front-end developer. Though my time in the bootcamp was difficult, 
